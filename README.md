@@ -80,7 +80,7 @@ unset PGPASSWORD
 ```
 crontab -e
 
-**6 0 * * * /scripts/postgresql_dump.sh**
+6 0 * * * /scripts/postgresql_dump.sh
 ```
 
 Скрипт будет запускаться каждый день в 06:00.
